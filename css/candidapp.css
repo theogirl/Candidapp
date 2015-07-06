@@ -1,0 +1,118 @@
+body {
+	font-size: 1.1em;
+	 font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 1.2em;
+	color: #454545;
+}
+
+h1 {
+	font-size: 2.4em;
+	font-weight: bold;
+	line-height: 1.2em;
+	margin-bottom: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #ba111a;
+}
+
+a:hover {
+	color: blue;
+}
+
+
+
+/*---CONTAINMENT----*/
+
+
+.wrapper {
+	width: 100%;
+	padding: 0;
+	margin: 50px auto;
+}
+
+.container {
+	width: 100%;
+	padding: 0 100px;
+}
+
+/* Self Clearing Goodness */
+.container:after,
+{
+  content: "";
+  display: table;
+  clear: both;
+  }
+
+
+
+
+/*---PREHEADER----*/
+
+.preheader {
+	height: 70px;
+	clear: both;
+}
+
+.logo {
+	float: left;
+	width: 330px;
+	height: 50px;
+	background: url(../images/logo.jpg);
+	background-size: 330px 50px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.date {
+	float: right;
+	text-align: right;
+	width: 650px;
+}
+
+/*---RED BANNER INTRO----*/
+
+.red-header {
+	background-color: #ba111a;
+	height: 350px;
+}
+
+.red-image {
+	float: left;
+	width: 40%;
+	height: 375px;
+	background: url(../images/parliament.png) no-repeat center;
+	background-size: 500px 375px;
+}
+
+.red-copy {
+	color: white;
+	text-align: left;
+	float: left;
+	width: 50%;
+	padding-top: 40px;
+	margin-left: 50px;
+}
+
+.red-copy p {
+	line-height: 1.6em;
+}
+
+
+/*---NUMBERS_STATS----*/
+
+.stats {
+	background-color: #ebebeb;
+	height: 350px;
+	margin-top: 30px;
+}
+
+.number {
+	width: 30%;
+	display: inline-block;
+	margin: 30px 10px;
+}
+
+
+

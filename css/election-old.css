@@ -1,0 +1,170 @@
+body {
+	font-family: sans-serif;
+	font-size: 1em;
+	line-height: 1.2;
+}
+
+h1 {
+	font-size: 1.6em;
+	margin-bottom: 15px;
+}
+
+
+.stats {
+	width: 100%;
+	background-color: gainsboro;
+
+}
+
+.header {
+	width: 100%;
+	text-align: left;
+	height: 60px;
+	padding-top: 12px;
+	padding-left: 25px;
+}
+
+.stats .header {
+	background-color: black;
+	color: white;
+}
+
+.header-cons {
+	background-color: blue;
+	color: white;
+	padding-left: 25px;
+}
+
+.header-libs {
+	background-color: red;
+	color: white;
+	padding-left: 25px;
+}
+
+.infographic,
+.content {
+	padding: 40px;
+}
+
+.candidate {
+	width: 100%;
+}
+
+.content-test {
+	padding: 40px;
+}
+
+.list-all li {
+	display: inline;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+header {
+	text-align: center;
+	background-color: #158cba;
+	margin: 2em auto;
+	padding: 60px 80px;
+	color: white;
+}
+
+input {
+	width: 200px;
+	height: 50px;
+	font-size: 1em;
+	padding: 10px;
+	border-radius: 5px;
+	border: white solid 1px;
+}
+
+button {
+	height: 50px;
+	border: 1px white solid;
+	border-radius: 5px;
+	background-color: transparent;
+	color: white;
+	font-size: 0.9em;
+	padding: 10px 40px;
+	margin: 30px 15px;
+}
+
+button:hover {
+	background-color: white;
+	color: #158cba;
+}
+
+.avatar {
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+  border-radius: 100%;
+  border: 4px solid #eee;
+  background-color: #eee;
+  background-position: 0% 17%;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  z-index: 1;
+  margin-top: 0;
+  padding: 0;
+}
+
+.green {
+	border: 4px solid #3d9b35;
+}
+
+.ndp {
+	border: 4px solid #f58220;
+}
+
+.info {
+	text-align: center;
+	font-size: 0.9em;
+}
+
+.list-item {
+	margin-bottom: 15px;
+	padding: 0;
+}
+
+.web-icon {	
+  background-color: #158cba;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  position: relative;
+  top: 45px;
+  left: 100px;
+  text-align: center;
+  z-index: 20;
+  margin: 0;
+padding-top: 5px;
+}
+.web-icon:hover {
+	background-color: blue;
+}
+
+.web-icon a {
+	color:white;
+	text-decoration: none;
+	font-size: 2em;
+
+}
+.website {
+	text-decoration: none;
+	color:black;
+}
+
+.website:hover {
+	background-color: #eee;
+}
+
+@media only screen and (max-width: 500px) {
+	header {
+		padding: 30px 20px;
+	}
+	button {
+		margin: 10px 20px;
+	}
+}
